@@ -2,6 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        System.out.println(args.length);
+        for(String str : args) {
+            System.out.println("Hello " + str + "!");
+        }
     }
 }
